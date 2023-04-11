@@ -13,7 +13,7 @@
     "@react-native-picker/picker": "^2.4.8",
     "react": "17.0.2",
     "react-native": "0.68.2",
-    "react-native-selphi-face-plugin": "../../lib/react-native-selphi-face-plugin"
+    "react-native-selphi-face-plugin": "./libs/react-native-selphi-face-plugin"
   },
   "devDependencies": {
     "@babel/core": "^7.20.7",

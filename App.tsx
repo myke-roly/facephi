@@ -57,10 +57,12 @@ const App = () =>
       return await RNSelphiFacePluginModule.startExtraction('fphi-selphi-widget-resources-selphi-live-1.2', sdkConfig)
       .then((result: any) => 
       {
+        console.log(result)
         processResult(result);
       })
       .catch((error: any) => 
       {
+        console.log(JSON.stringify(error))
         setMessage(JSON.stringify(error));
         setBestImage(null);
         //setShowError(true);
